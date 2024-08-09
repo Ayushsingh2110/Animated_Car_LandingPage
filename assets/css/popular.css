@@ -1,0 +1,85 @@
+.popular_container{
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+.popular_container::-webkit-scrollbar{
+    display: none;
+}
+.popular_slider{
+    width: fit-content;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 238px;
+    gap: 2rem;
+}
+
+.popular_card{
+    position: relative;
+    height: auto;
+    width: 238px;
+    background-color: var(--container-color);
+    padding: 2rem 1.5rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+}
+.popular_card:hover .popular_card--img{
+    transform: translateY(-.2rem);
+}
+
+.popular_card--title{
+    font-size: var(--h2-font-size);
+    margin-bottom: .25rem;
+}
+.popular_card--subtitle{
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.popular_card--img{
+    width: 100%;
+    margin: .5rem 0;
+    transition: .5s;
+}
+
+.popular_card--data{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: .5rem 1.25rem;
+    margin-bottom: 2rem;
+}
+.popular--data_group{
+    display: inline-flex;
+    column-gap: 0.5rem;
+    align-items: center;
+    font-size: var(--smaller-font-size);
+    color: var(--white-color);
+}
+
+.popular--data_group i{
+    font-size: 1.2rem;
+}
+
+.popular_card--price{
+    font-size: var(--h3-font-size);
+}
+
+.popular_card--button{
+    background-color: rgba(35, 140, 226, 0.896);
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    border-radius: 1rem 0 0 0;
+    cursor: pointer;
+}
+.popular_card--button i{
+    color: #fff;
+    font-size: large;
+}
+
