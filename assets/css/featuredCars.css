@@ -1,0 +1,55 @@
+:root{
+    --featured-button_side : 50px;
+}
+.featured_container{
+    display: grid;
+    justify-content: center;
+}
+.featured--filter_items{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured--filter_icons{
+    border: none;
+    background-color: black;
+    box-shadow: 5px 3px 3px grey;
+    font-size: medium;
+    color: #fff;
+    height: var(--featured-button_side);
+    width: var(--featured-button_side);
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .3s ease-out;
+    opacity: 0.5;
+}
+.featured--filter_icons:hover{
+    transform: translate(5px,3px);
+    background-color: rgb(56, 56, 197);
+    box-shadow: none;
+    opacity: 1;
+}
+
+.featured--filter_icons img{
+    width: 100%;
+}
+
+.featured_content{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.featured_card--img{
+    width: 100%;
+    margin: .5rem 0;
+    transition: .8s;
+    transform: scale(80%,80%) translate(-.9rem, -.2rem);
+}
+.featured_card--img:hover{
+    transform: scale(90%,90%) translate(0rem, -.1rem);
+}

@@ -23,7 +23,6 @@
     background-color: var(--container-color);
     padding: 2rem 1.5rem 1.5rem;
     border-radius: 1rem;
-    margin-bottom: 3.5rem;
     overflow: hidden;
 }
 .popular_card:hover .popular_card--img{
