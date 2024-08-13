@@ -47,7 +47,8 @@
 
 .feature--map_img{
     position: absolute;
-    transform: rotate(-22deg);
+    transform: rotate(-22deg) translateX(-50%);
     top: 0;
+    left: 50%;
     z-index: -1;
 }

@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     overflow-x: scroll;
+    width: 85vw;
 }
 .popular_container::-webkit-scrollbar{
     display: none;

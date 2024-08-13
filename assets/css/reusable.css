@@ -1,6 +1,6 @@
 .container {
   max-width: 1024px;
-  width: 95vw;
+  width: 100vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -38,11 +38,4 @@
   width: 180px;
   height: 180px;
   filter: blur(64px);
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-  }
 }
