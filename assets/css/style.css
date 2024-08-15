@@ -25,6 +25,9 @@
 /*=============== OFFER ===============*/
 @import "./offer.css";
 
+/*=============== OFFER ===============*/
+@import "./logos.css";
+
 :root {
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/

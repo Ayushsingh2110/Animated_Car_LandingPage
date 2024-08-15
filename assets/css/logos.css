@@ -1,0 +1,17 @@
+.logos_container{
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    align-content: center;
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+
+.logo_img{
+    width: 40px;
+    opacity: 0.5; 
+    transition: .3s;   
+}
+
+.logo_img:hover{
+    opacity: 1;
+}
