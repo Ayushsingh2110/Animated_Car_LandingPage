@@ -28,6 +28,9 @@
 /*=============== OFFER ===============*/
 @import "./logos.css";
 
+/*=============== FOOTER ===============*/
+@import "./footer.css";
+
 :root {
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -115,6 +118,12 @@ body {
 }
 
 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
   text-decoration: none;
   color: inherit;
 }

@@ -50,6 +50,7 @@
     transition: .8s;
     transform: scale(80%,80%) translate(-.9rem, -.2rem);
 }
-.featured_card--img:hover{
+
+.featured_card:hover .featured_card--img{
     transform: scale(90%,90%) translate(0rem, -.1rem);
 }
