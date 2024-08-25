@@ -6,6 +6,11 @@
     position:fixed;
     top: 0;
     z-index: var(--z-fixed);
+    transition: .4s;
+  }
+
+  .header.scrolled{
+    background: black;
   }
   
   .nav{
@@ -95,6 +100,9 @@
     }
     .nav_list{
       flex-direction: column;
+    }
+    .nav_item{
+      font-size: 1.5rem;
     }
   }
   

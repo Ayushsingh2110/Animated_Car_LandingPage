@@ -2,8 +2,18 @@ const Menu = document.getElementById("nav-menu");
 const Hamburger = document.getElementById("Ham-burger");
 const NavLinks = document.querySelectorAll(".nav_link");
 
+/*======== NAVBAR SCROLL EFFECT ======== */
+const navbar = document.getElementById("header");
+function navbarScroll(){
+    if(this.pageYOffset > 50){
+        navbar.classList.add("scrolled")
+    }else{
+        navbar.classList.remove("scrolled")
+    }
+}
+window.addEventListener("scroll", navbarScroll)
 
-/*===== Toggle Menu =====*/
+/*======== Toggle Menu ========*/
 Hamburger.addEventListener("click", () => {
     Hamburger.classList.toggle('active');
     Menu.classList.toggle('active');
