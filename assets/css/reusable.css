@@ -24,6 +24,12 @@
   overflow: hidden;
 }
 
+.shape_round{
+  background-color: hsla(219, 33%, 32%, .5);
+  border-radius: 50%;
+  filter: blur(150px);
+}
+
 .shape_big{
   width: 400px;
   height: 400px;

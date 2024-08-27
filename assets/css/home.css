@@ -1,6 +1,17 @@
 .home_container {
     padding: 1rem;
     justify-content: center;
+    overflow: hidden;
+}
+.home_container .shape_big{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+.home_container .shape_small{
+    position: absolute;
+    bottom: -10%;
+    right: 0;
 }
 
 .home_data {

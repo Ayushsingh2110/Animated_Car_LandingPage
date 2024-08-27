@@ -30,6 +30,12 @@
     transform: translateY(-.2rem);
 }
 
+.popular_card .shape_smaller{
+    position: absolute;
+    top: -10%;
+    left: -10%;   
+}
+
 .popular_card--title{
     font-size: var(--h2-font-size);
     margin-bottom: .25rem;

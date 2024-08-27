@@ -82,3 +82,5 @@ sr.reveal(".feature--card_3",  {origin: "left", delay: 300})
 
 sr.reveal(".offer_content", {origin: "left"})
 sr.reveal(".offer_img", {origin: "right"})
+
+sr.reveal(".logo_img", {interval: 100})
