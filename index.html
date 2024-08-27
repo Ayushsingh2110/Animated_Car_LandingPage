@@ -290,28 +290,28 @@
           <div class="featured_container container">
             <ul class="featured--filter_items">
               <li>
-                <button class="featured--filter_icons">
+                <button class="featured--filter_icons active-featured" data-filter="all">
                   All
                 </button>
               </li>
               <li>
-                <button class="featured--filter_icons">
+                <button class="featured--filter_icons" data-filter=".tesla">
                   <img src="./assets/img/logo3.png" alt="">
                 </button>
               </li>
               <li>
                 <button class="featured--filter_icons">
-                  <img src="./assets/img/logo2.png" alt="">
+                  <img src="./assets/img/logo2.png" alt="" data-filter=".audi">
                 </button>
               </li>
               <li>
                 <button class="featured--filter_icons">
-                  <img src="./assets/img/logo1.png" alt="">
+                  <img src="./assets/img/logo1.png" alt="" data-filter=".porsche">
                 </button>
               </li>
             </ul>
             <div class="featured_content grid">
-              <div class="popular_card featured_card">
+              <div class="popular_card featured_card mix tesla">
                 <div class="shape_round shape_smaller"></div>
                 <h1 class="popular_card--title">Tesla</h1>
                 <h2 class="popular_card--subtitle">Model X</h2>
@@ -325,7 +325,7 @@
                   <i class="ri-shopping-bag-4-line"></i>
                 </button>
               </div>
-              <div class="popular_card featured_card">
+              <div class="popular_card featured_card mix tesla">
                 <div class="shape_round shape_smaller"></div>
                 <h1 class="popular_card--title">Tesla</h1>
                 <h2 class="popular_card--subtitle">Model 3</h2>
@@ -339,7 +339,7 @@
                   <i class="ri-shopping-bag-4-line"></i>
                 </button>
               </div>
-              <div class="popular_card featured_card">
+              <div class="popular_card featured_card mix audi">
                 <div class="shape_round shape_smaller"></div>
                 <h1 class="popular_card--title">Audi</h1>
                 <h2 class="popular_card--subtitle">E-tron</h2>
@@ -353,7 +353,7 @@
                   <i class="ri-shopping-bag-4-line"></i>
                 </button>
               </div>
-              <div class="popular_card featured_card">
+              <div class="popular_card featured_card mix porsche">
                 <div class="shape_round shape_smaller"></div>
                 <h1 class="popular_card--title">Porsche</h1>
                 <h2 class="popular_card--subtitle">Boxter 987</h2>
@@ -367,7 +367,7 @@
                   <i class="ri-shopping-bag-4-line"></i>
                 </button>
               </div>
-              <div class="popular_card featured_card">
+              <div class="popular_card featured_card mix porsche">
                 <div class="shape_round shape_smaller"></div>
                 <h1 class="popular_card--title">Porsche</h1>
                 <h2 class="popular_card--subtitle">Panamera</h2>
@@ -520,7 +520,7 @@
     <script src=""></script>
 
     <!--=============== MIXITUP JS ===============-->
-    <script src=""></script>
+    <script src="./assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>

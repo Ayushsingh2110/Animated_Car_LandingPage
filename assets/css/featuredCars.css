@@ -23,13 +23,17 @@
     padding: .5rem;
     border-radius: .5rem;
     cursor: pointer;
-    transition: .3s ease-out;
-    opacity: 0.5;
+    transition: .3s ease;
+    opacity: 1;
 }
 .featured--filter_icons:hover{
     transform: translate(5px,3px);
     background-color: rgb(56, 56, 197);
     box-shadow: none;
+    opacity: 1;
+}
+.featured--filter_icons.active-featured{
+    background-color: rgb(84, 84, 255);
     opacity: 1;
 }
 

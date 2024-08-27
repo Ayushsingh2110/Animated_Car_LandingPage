@@ -84,3 +84,26 @@ sr.reveal(".offer_content", {origin: "left"})
 sr.reveal(".offer_img", {origin: "right"})
 
 sr.reveal(".logo_img", {interval: 100})
+
+
+/*=========== MIXIT UP ============ */
+let mixer = mixitup(".featured_content", {
+    selectors: {
+        target: '.featured_card'
+    },
+    animation: {
+        duration: 500,
+        effects: "fade stagger(100ms)",
+         easing: 'ease-in-out'
+    }
+});
+
+/*========== FEATURED ACTIVE BUTTON ===========*/
+const featuredBtns = document.querySelectorAll(".featured--filter_icons");
+
+function setActiveFeatured(){
+    featuredBtns.forEach(btn => btn.classList.remove("active-featured"))
+    this.classList.add("active-featured");
+}
+
+featuredBtns.forEach(btn => btn.addEventListener("click", setActiveFeatured))
