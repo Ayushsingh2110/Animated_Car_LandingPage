@@ -26,11 +26,16 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    align-items: center;
+    align-items:flex-start;
+}
+
+.offer_title{
+    text-align: start;
+    margin-bottom: 1.5rem;
 }
 
 .offer_content p{
-    text-align: center;
+    text-align: start;
 }
 
 .offer_content button{

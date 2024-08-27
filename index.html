@@ -23,6 +23,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>4pahiya</title>
   </head>
   <body>
@@ -93,7 +94,7 @@
       <section class="about section" id="About">
         <div class="about_container container">
           <div class="about_img">
-            <img src="./assets/img/about.png" alt="about image" >
+            <img src="./assets/img/about.png" alt="about image" class="about_img--file">
           </div>
           <div class="about_data">
             <h1 class="about_data--heading">
@@ -251,7 +252,7 @@
       <!--==================== FEATURES ====================-->
       <section class="featured section" id="Featured">
         <a name="Featured"></a>
-        <section class="features section">
+        <div class="features">
           <div class="feature_container container grid">
       
             <div class="feature_group">
@@ -270,106 +271,107 @@
                 <p class="feature--card_desc">Km <br> Travel</p>
               </div>
             </div>
-      
           </div>
           <img src="./assets/img/map.svg" alt="" class="feature--map_img">
-        </section>
+        </div>
       
         <!--==================== FEATURED ====================-->
-        <h2 class="section_title">
-          Featured Luxury Cars
-        </h2>
-      
-        <div class="featured_container container">
-          <ul class="featured--filter_items">
-            <li>
-              <button class="featured--filter_icons">
-                All
-              </button>
-            </li>
-            <li>
-              <button class="featured--filter_icons">
-                <img src="./assets/img/logo3.png" alt="">
-              </button>
-            </li>
-            <li>
-              <button class="featured--filter_icons">
-                <img src="./assets/img/logo2.png" alt="">
-              </button>
-            </li>
-            <li>
-              <button class="featured--filter_icons">
-                <img src="./assets/img/logo1.png" alt="">
-              </button>
-            </li>
-          </ul>
-          <div class="featured_content grid">
-            <div class="popular_card featured_card">
-              <h1 class="popular_card--title">Tesla</h1>
-              <h2 class="popular_card--subtitle">Model X</h2>
-      
-              <img src="./assets/img/featured1.png" alt="porsche car" class="featured_card--img">
-      
-              <h3 class="popular_card--price">
-                $98,900
-              </h3>
-              <button class="popular_card--button">
-                <i class="ri-shopping-bag-4-line"></i>
-              </button>
+        <div class="section">
+          <h2 class="section_title">
+            Featured Luxury Cars
+          </h2>
+        
+          <div class="featured_container container">
+            <ul class="featured--filter_items">
+              <li>
+                <button class="featured--filter_icons">
+                  All
+                </button>
+              </li>
+              <li>
+                <button class="featured--filter_icons">
+                  <img src="./assets/img/logo3.png" alt="">
+                </button>
+              </li>
+              <li>
+                <button class="featured--filter_icons">
+                  <img src="./assets/img/logo2.png" alt="">
+                </button>
+              </li>
+              <li>
+                <button class="featured--filter_icons">
+                  <img src="./assets/img/logo1.png" alt="">
+                </button>
+              </li>
+            </ul>
+            <div class="featured_content grid">
+              <div class="popular_card featured_card">
+                <h1 class="popular_card--title">Tesla</h1>
+                <h2 class="popular_card--subtitle">Model X</h2>
+        
+                <img src="./assets/img/featured1.png" alt="porsche car" class="featured_card--img">
+        
+                <h3 class="popular_card--price">
+                  $98,900
+                </h3>
+                <button class="popular_card--button">
+                  <i class="ri-shopping-bag-4-line"></i>
+                </button>
+              </div>
+              <div class="popular_card featured_card">
+                <h1 class="popular_card--title">Tesla</h1>
+                <h2 class="popular_card--subtitle">Model 3</h2>
+        
+                <img src="./assets/img/featured2.png" alt="porsche car" class="featured_card--img">
+        
+                <h3 class="popular_card--price">
+                  $48,900
+                </h3>
+                <button class="popular_card--button">
+                  <i class="ri-shopping-bag-4-line"></i>
+                </button>
+              </div>
+              <div class="popular_card featured_card">
+                <h1 class="popular_card--title">Audi</h1>
+                <h2 class="popular_card--subtitle">E-tron</h2>
+        
+                <img src="./assets/img/featured3.png" alt="porsche car" class="featured_card--img">
+        
+                <h3 class="popular_card--price">
+                  $175,900
+                </h3>
+                <button class="popular_card--button">
+                  <i class="ri-shopping-bag-4-line"></i>
+                </button>
+              </div>
+              <div class="popular_card featured_card">
+                <h1 class="popular_card--title">Porsche</h1>
+                <h2 class="popular_card--subtitle">Boxter 987</h2>
+        
+                <img src="./assets/img/featured4.png" alt="porsche car" class="featured_card--img">
+        
+                <h3 class="popular_card--price">
+                  $126,900
+                </h3>
+                <button class="popular_card--button">
+                  <i class="ri-shopping-bag-4-line"></i>
+                </button>
+              </div>
+              <div class="popular_card featured_card">
+                <h1 class="popular_card--title">Porsche</h1>
+                <h2 class="popular_card--subtitle">Panamera</h2>
+        
+                <img src="./assets/img/featured5.png" alt="porsche car" class="featured_card--img">
+        
+                <h3 class="popular_card--price">
+                  $126,900
+                </h3>
+                <button class="popular_card--button">
+                  <i class="ri-shopping-bag-4-line"></i>
+                </button>
+              </div>
+        
             </div>
-            <div class="popular_card featured_card">
-              <h1 class="popular_card--title">Tesla</h1>
-              <h2 class="popular_card--subtitle">Model 3</h2>
-      
-              <img src="./assets/img/featured2.png" alt="porsche car" class="featured_card--img">
-      
-              <h3 class="popular_card--price">
-                $48,900
-              </h3>
-              <button class="popular_card--button">
-                <i class="ri-shopping-bag-4-line"></i>
-              </button>
-            </div>
-            <div class="popular_card featured_card">
-              <h1 class="popular_card--title">Audi</h1>
-              <h2 class="popular_card--subtitle">E-tron</h2>
-      
-              <img src="./assets/img/featured3.png" alt="porsche car" class="featured_card--img">
-      
-              <h3 class="popular_card--price">
-                $175,900
-              </h3>
-              <button class="popular_card--button">
-                <i class="ri-shopping-bag-4-line"></i>
-              </button>
-            </div>
-            <div class="popular_card featured_card">
-              <h1 class="popular_card--title">Porsche</h1>
-              <h2 class="popular_card--subtitle">Boxter 987</h2>
-      
-              <img src="./assets/img/featured4.png" alt="porsche car" class="featured_card--img">
-      
-              <h3 class="popular_card--price">
-                $126,900
-              </h3>
-              <button class="popular_card--button">
-                <i class="ri-shopping-bag-4-line"></i>
-              </button>
-            </div>
-            <div class="popular_card featured_card">
-              <h1 class="popular_card--title">Porsche</h1>
-              <h2 class="popular_card--subtitle">Panamera</h2>
-      
-              <img src="./assets/img/featured5.png" alt="porsche car" class="featured_card--img">
-      
-              <h3 class="popular_card--price">
-                $126,900
-              </h3>
-              <button class="popular_card--button">
-                <i class="ri-shopping-bag-4-line"></i>
-              </button>
-            </div>
-      
           </div>
         </div>
       </section>
@@ -379,7 +381,7 @@
         <div class="offer_container container grid">
           <img src="./assets/img/offer-bg.png" alt="background offer section" class="offer_bg">
           <div class="offer_content">
-            <h2 class="section_title">
+            <h2 class="section_title offer_title">
               Do You Want To Receive <br> Special Offers?
             </h2>
             <p>

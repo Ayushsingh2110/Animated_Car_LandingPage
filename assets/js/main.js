@@ -55,3 +55,30 @@ function showScrollUp(){
 }
 
 window.addEventListener("scroll", showScrollUp)
+
+/*============= SCROLL REVEAL ANIMATION ==============*/
+const sr = ScrollReveal({
+    origin: "top",
+    distance: "50px",
+    delay: 200,
+    duration: 2500,
+    reset: false
+
+})
+
+sr.reveal(".home_title, .popular_container, .featured_card")
+sr.reveal(".home--car_name")
+sr.reveal(".home--car_category", {delay: 300})
+sr.reveal(".home--car_img", {delay: 400})
+sr.reveal(".car_data div", {delay: 400, interval: 100, origin: "bottom"})
+
+sr.reveal(".about_img--file", {origin: "left"})
+sr.reveal(".about_data, .featured--filter_icons", {origin: "right", interval: 100})
+
+sr.reveal(".feature_group--img", {origin: "bottom"})
+sr.reveal(".feature--card_1",  {origin: "left", delay: 300})
+sr.reveal(".feature--card_2",  {origin: "right", delay: 400})
+sr.reveal(".feature--card_3",  {origin: "left", delay: 300})
+
+sr.reveal(".offer_content", {origin: "left"})
+sr.reveal(".offer_img", {origin: "right"})

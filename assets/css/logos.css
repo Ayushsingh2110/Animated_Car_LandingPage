@@ -1,5 +1,5 @@
 .logos_container{
-    grid-template-columns: repeat(3, max-content);
+    display: flex;
     justify-content: center;
     align-content: center;
     gap: 4rem;
@@ -14,4 +14,11 @@
 
 .logo_img:hover{
     opacity: 1;
+}
+
+@media screen and (max-width: 600px){
+    .logos_container{
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+    }
 }
